@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>WGK LMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="backgroundcolor">
+        <a href="index.html"><img src="files\WGKLMS.png" /></a>
+        <div class="logo-title">WGK LMS</div>
+        <div class="snelkoppelingen" id="snelkoppelingen">
+          <i
+            class="fa fa-times-circle"
+            aria-hidden="true"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vormingen.html">Vormingen</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="">Data</a></li>
+            <li><a href="">Settings</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <h1 class="title-forms">Forms</h1>
+    </section>
+
+    <!----Alinea 2----------------->
+
+    <section>
+      <div class="vormingen-a2">
+        <h2>Formulieren</h2>
+      </div>
+    </section>
+
+    <section class="forms-section">
+
+    <div class="container">
+      <header class="form-title">Registratie nieuwe vorming 2022</header>
+     <form>
+       <div class="sub-title">
+         Welke functie heeft de medewerker?
+       </div>
+       <div class="Checkbox">
+      <label for="Hoofdverpleegkundige">Hoofdverpleegkundige</label>
+      <input type="radio" name="Hoofdverpleegkundige"id="Hoofdverpleegkundige" value="Hoofdverpleegkundige">
+      </div>
+       <div>
+      <label for="Adjunct hoofdverpleegkundige">Adjunct hoofdverpleegkundige</label>
+      <input type="radio" name="Adjunct hoofdverpleegkundige"id="Adjunct hoofdverpleegkundige" value="Adjunct hoofdverpleegkundige">
+      </div>
+       <div>
+      <label for="Referentiespecialist">Referentiespecialist</label>
+      <input type="radio" name="Referentiespecialist"id="Referentiespecialist" value="Referentiespecialist">
+      </div>
+       <div>
+      <label for="RV">RV</label>
+      <input type="radio" name="RV"id="RV" value="RV">
+      </div>
+       <div>
+      <label for="Manager">Manager</label>
+      <input type="radio" name="Referentiespecialist"id="Referentiespecialist" value="Referentiespecialist">
+      </div>
+      <div class="sub-title">Kies je afdeling/dienst</div>
+      <div>
+      <div class="dropdown">
+        <select name="dropdown" id="dropdown">
+        <option value="601">601</option>
+        <option value="602">602</option>
+        <option value="603">603</option>
+        <option value="604">604</option>
+        <option value="605">605</option>
+        <option value="606">606</option>
+        <option value="607">607</option>
+        <option value="608">608</option>
+        <option value="609">609</option>
+        <option value="610">610</option>
+          </select>
+          <div class="sub-title">Selecteer de soort vorming die je wil aanvragen.</div>
+      </div>
+      <label for="vorming-soort">WWD</label>
+      <input type="radio" name="WWD"id="WWD" value="WWD">
+      </div>
+      <label for=""></label>
+      <button type="reset">Reset</button>
+      <button type="submit">Next</button>
+      
+      </div>
+    </form>
+    </div>
+
+            </div>
+          </div>
+        </div>
+    
+    </div>
+
+   
+</section>
+    <!-----JS for mobile device menu------>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showMenu() {
+        snelkoppelingen.style.right = "0";
+      }
+      function hideMenu() {
+        snelkoppelingen.style.left = "-250px";
+      }
+    </script>
+
+    <!--------Footer -->
+    <section class="footer">
+      <br />
+      <br />
+      <p>Made with <i class="fa fa-heart-o"></i> by Ronald en Jason</p>
+    </section>
+    <script src="WGKLMS.js"></script>
+  </body>
+</html>

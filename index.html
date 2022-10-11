@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>WGK LMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="WGKLMS.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet" />
+  </head>
+  <body>
+    <section class="header">
+      <nav class="Menubar" id="navbar">
+        <a href="index.html"><img src="files\WGKLMS.png" /></a>
+        <div class="logo-title">WGK LMS</div>
+        <div class="snelkoppelingen" id="snelkoppelingen">
+          <i
+            class="fa fa-times-circle"
+            aria-hidden="true"
+            onclick="hideMenu()"
+          ></i>
+          <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vormingen.html">Vormingen</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="">Data</a></li>
+            <li><a href="">Settings</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Vormingen in een heel nieuw jasje</h1>
+        <p>Een systeem volledig gebouwd door de interne IT dienst</p>
+      </div>
+    </section>
+
+    <section class="opleidingen">
+    <h1>Aanpassingen in het nieuwe systeem</h1>
+    
+    </section>
+
+    <section>
+
+    <div class="row">
+      <div class="opleiding-col">
+        <h3>Performance</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo,
+          nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in,
+          adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum.
+          Vestibulum condimentum condimentum augue.
+        </p>
+      </div>
+      
+      <div class="opleiding-col">
+        <h3>Overzicht</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo,
+          nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in,
+          adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum.
+          Vestibulum condimentum condimentum augue.
+        </p>
+      </div>
+      <div class="opleiding-col">
+        <h3>Makkelijk te gebruiken</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo,
+          nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in,
+          adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum.
+          Vestibulum condimentum condimentum augue.
+        </p>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+
+  
+<!-----Forms uitleg ------>
+
+  <section class="form-uitleg" >
+    <h1>Google Forms naar WGK Forms</h1>
+    <p>Makkelijk aanpasbaar en customiseerbaar</p>
+
+    <div class="row">
+      <div class="forms-col"></div>
+      <img src="" alt="">
+      
+    </div>
+
+
+
+  </section>
+
+
+    <!-----JS for mobile device menu------>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showMenu() {
+        snelkoppelingen.style.right = "0";
+      }
+      function hideMenu() {
+        snelkoppelingen.style.left = "-250px";
+      }
+    </script>
+    
+
+    <!--------Footer -->
+<section class="footer">
+  <h4>About us</h4>
+  <p>Een duo ontwikkeling van JRR</p>
+  <br>
+
+  <p>Made with <i class="fa fa-heart-o "></i> by Ronald, Ruddi & Jason </p>
+</section>
+
+  </body>
+</html>
+

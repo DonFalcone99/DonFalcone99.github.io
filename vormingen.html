@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>WGK LMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav class="backgroundcolor">
+        <a href="index.html"><img src="files\WGKLMS.png" /></a>
+        <div class="logo-title">WGK LMS</div>
+        <div class="snelkoppelingen" id="snelkoppelingen">
+          <i
+            class="fa fa-times-circle"
+            aria-hidden="true"
+            onclick="hideMenu()"
+          ></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="vormingen.html">Vormingen</a></li>
+            <li><a href="forms.html">Forms</a></li>
+            <li><a href="">Data</a></li>
+            <li><a href="">Settings</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <h1 class="title-vormingen">Vormingen</h1>
+    </section>
+
+    <!----Alinea 2----------------->
+
+    <section>
+      <div class="vormingen-a2">
+        <h2>Digitale opleidingen</h2>
+      </div>
+
+      <div class="row">
+        <div class="digitale_opleidingen"></div>
+      </div>
+    </section>
+
+    <!-----JS for mobile device menu------>
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showMenu() {
+        snelkoppelingen.style.right = "0";
+      }
+      function hideMenu() {
+        snelkoppelingen.style.left = "-250px";
+      }
+    </script>
+
+    <!--------Footer -->
+    <section class="footer">
+      <br />
+      <br />
+      <p>Made with <i class="fa fa-heart-o"></i> by Ronald en Jason</p>
+    </section>
+  </body>
+</html>
